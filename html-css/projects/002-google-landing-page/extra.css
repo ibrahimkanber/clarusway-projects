@@ -1,0 +1,63 @@
+    header {
+        border: 2px solid green;
+        display: flex;
+    }
+    
+    nav {
+        border: 2px solid red;
+        flex: 1;
+    }
+    
+    nav a {
+        text-decoration: none;
+        margin-left: 10px;
+    }
+    
+    #right {
+        text-align: right;
+    }
+    
+    section {
+        width: 50vm;
+        height: 85vh;
+        border: 2px solid green;
+        display: grid;
+        place-items: center;
+        background-color: blanchedalmond;
+    }
+    
+    section div {
+        width: 50%;
+        height: 50%;
+        border: 2px solid blue;
+        border: 2px solid green;
+    }
+    
+    footer {
+        background-color: aqua;
+        border: 2px solid green;
+    }
+    
+    .footer-down {
+        display: flex;
+        border: 2px solid green;
+    }
+    
+    .footer-down div {
+        flex: 1;
+        border: 2px solid green;
+    }
+    
+    .footer-down-right {
+        text-align: right;
+        border: 2px solid green;
+    }
+    
+    .footer-down div a {
+        text-decoration: none;
+        margin-left: 10px;
+    }
+    
+    .footer-down a:first-child {
+        margin-left: 0px;
+    }
