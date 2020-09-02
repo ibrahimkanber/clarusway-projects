@@ -1,1 +1,0 @@
-# Google Landing Page Images
